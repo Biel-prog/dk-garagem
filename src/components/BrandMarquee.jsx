@@ -6,7 +6,7 @@ const brands = [
   { name: "Chevrolet", url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet_logo.svg" },
   { name: "Fiat", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fiat_logo_2006.svg/200px-Fiat_logo_2006.svg.png" }, // Versão Redonda Clássica
   { name: "Ford", url: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" },
-  { name: "Honda", url: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg" }, // O "H" de Carros
+  { name: "Honda", url: "https://www.citypng.com/public/uploads/preview/honda-car-emblem-logo-png-701751694772075os3qi4x57u.png" }, // O "H" de Carros
   { name: "Toyota", url: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg" },
   { name: "Hyundai", url: "https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg" },
   { name: "Renault", url: "https://upload.wikimedia.org/wikipedia/commons/4/49/Renault_2009_logo.svg" }, // O Losango prateado
