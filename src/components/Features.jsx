@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Clock, Wrench, Coins } from 'lucide-react'; // Trocamos Tool por Wrench
+import { ShieldCheck, Clock, Wrench, Coins } from 'lucide-react';
 
 const features = [
   {
@@ -13,7 +13,7 @@ const features = [
     desc: "Sabemos que você depende do carro. Trabalhamos com prazos reais."
   },
   {
-    icon: <Wrench size={32} />, // Ícone corrigido aqui
+    icon: <Wrench size={32} />, 
     title: "Equipamentos de Ponta",
     desc: "Diagnóstico via scanner e ferramentas específicas para cada montadora."
   },

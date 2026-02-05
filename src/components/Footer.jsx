@@ -19,14 +19,14 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-bold text-lg mb-1">WhatsApp</p>
-                <a href="https://wa.me/5511940013480" className="block hover:text-dk-orange transition-colors">(11) 94001-3480</a>
                 <a href="https://wa.me/5511915297152" className="block hover:text-dk-orange transition-colors">(11) 91529-7152</a>
+                <a href="https://wa.me/5511940013480" className="block hover:text-dk-orange transition-colors">(11) 94001-3480</a>                
               </div>
             </div>
 
             {/* Instagram Link */}
             <a 
-              href="https://www.instagram.com/dk_garagem_/" 
+              href="https://www.instagram.com/dk.garagem/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-start gap-4 text-gray-300 hover:text-white transition-colors group"

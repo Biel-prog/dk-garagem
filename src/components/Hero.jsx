@@ -8,18 +8,18 @@ const Hero = () => {
       
       {/* === BACKGROUND === */}
       <div className="absolute inset-0 z-0">
-        {/* 1. Imagem de Fundo (Carro no Elevador/Oficina Dark) */}
+        {/* Imagem de Fundo */}
         <img 
           src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1920&auto=format&fit=crop" 
           alt="Oficina Mecânica DK Garagem" 
           className="w-full h-full object-cover opacity-60"
         />
         
-        {/* 2. Gradiente para Escurecer (Fade nas bordas) */}
+        {/* Gradiente para Escurecer (Fade nas bordas) */}
         <div className="absolute inset-0 bg-gradient-to-t from-dk-dark via-dk-dark/80 to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-dk-dark via-transparent to-dk-dark opacity-80"></div>
 
-        {/* 3. NOVA TEXTURA (Grid de Pontinhos) - Visual Industrial */}
+        {/* TEXTURA (Grid de Pontinhos) - Visual Industrial */}
         <div className="absolute inset-0 opacity-20" style={{ 
           backgroundImage: 'radial-gradient(#FF6600 1.5px, transparent 1.5px)', 
           backgroundSize: '30px 30px' 
@@ -52,7 +52,7 @@ const Hero = () => {
           {/* Subtítulo */}
           <p className="text-gray-400 text-lg md:text-2xl mb-10 max-w-2xl mx-auto font-light leading-relaxed">
             Mecânica Geral, Injeção Eletrônica e Suspensão. <br className="hidden md:block"/>
-            Tecnologia de ponta com o atendimento familiar que você confia.
+            Tecnologia de ponta com o atendimento que você merece.
           </p>
           
           {/* Botões de Ação */}

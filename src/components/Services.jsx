@@ -59,7 +59,7 @@ const Services = () => {
               key={index}
               className="relative h-64 rounded-2xl overflow-hidden border border-white/10 group"
             >
-              {/* Imagem de Fundo - Ajustada para preencher bem o card menor */}
+              {/* Imagem de Fundo */}
               <img 
                 src={service.image} 
                 alt={service.title} 

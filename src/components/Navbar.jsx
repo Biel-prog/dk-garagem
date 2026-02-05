@@ -30,7 +30,7 @@ const Navbar = () => {
               <a href="#contato" className="text-gray-300 hover:text-white hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-all">Contato</a>
             </div>
 
-            {/* SELO DE QUALIDADE (Destaque visual) */}
+            {/* SELO DE QUALIDADE */}
             <div className="flex items-center gap-2 bg-gradient-to-r from-gray-800 to-gray-900 px-4 py-2 rounded-full border border-yellow-500/30 shadow-[0_0_15px_rgba(234,179,8,0.1)]">
               <ShieldCheck size={18} className="text-yellow-500" />
               <span className="text-xs font-bold text-yellow-500 uppercase tracking-wide">Garantia & Confiança</span>

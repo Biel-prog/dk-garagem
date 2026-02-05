@@ -21,7 +21,7 @@ const SocialBanner = () => {
           </div>
           
           <a 
-            href="https://www.instagram.com/dk.garagem/" // Coloque o link real aqui
+            href="https://www.instagram.com/dk.garagem/"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white text-dk-orange font-black py-4 px-8 rounded-xl shadow-2xl hover:bg-black hover:text-white transition-all duration-300 flex items-center gap-2"
