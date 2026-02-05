@@ -1,8 +1,10 @@
 {
+  "homepage": "https://Biel-prog.github.io/dk-garagem",
   "name": "dk-garagem",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
