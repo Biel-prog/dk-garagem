@@ -4,9 +4,22 @@ import { ChevronDown, HelpCircle } from 'lucide-react';
 
 const faqData = [
   {
-    question: "Onde a oficina está localizada?",
-    answer: "Estamos localizados na Avenida Júlio Simões, 421, na Vila Brasileira, em Mogi das Cruzes - SP."
+    question: "Onde a oficina está localizada?",    
+    answer: (
+      <span>
+        Estamos localizados na{" "}
+        <a 
+          href="https://www.google.com/maps/search/?api=1&query=Avenida+Júlio+Simões+421+Vila+Brasileira+Mogi+das+Cruzes+SP" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-dk-orange font-bold hover:underline hover:text-orange-400 transition-colors"
+        >
+          Avenida Júlio Simões, 421, na Vila Brasileira, em Mogi das Cruzes - SP
+        </a>.
+      </span>
+    )
   },
+  
   {
     question: "Quais são os horários de funcionamento?",
     answer: "Atendemos de segunda a sexta-feira, das 08:00 às 18:00, e aos sábados, das 08:00 às 13:00."
